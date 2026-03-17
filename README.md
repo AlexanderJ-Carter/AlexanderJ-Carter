@@ -63,12 +63,14 @@
   </a>
 </p>
 
----
 
-## 🐍 Snake / 贪吃蛇动效
+<h2>🐍 Snake / 贪吃蛇动效</h2>
 
 <p align="center">
-  <img alt="snake animation" src="https://raw.githubusercontent.com/AlexanderJ-Carter/AlexanderJ-Carter/output/github-contribution-grid-snake.svg" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AlexanderJ-Carter/AlexanderJ-Carter/output/github-contribution-grid-snake-dark.svg" />
+    <img alt="snake animation" src="https://raw.githubusercontent.com/AlexanderJ-Carter/AlexanderJ-Carter/output/github-contribution-grid-snake.svg" />
+  </picture>
 </p>
 
 ---
