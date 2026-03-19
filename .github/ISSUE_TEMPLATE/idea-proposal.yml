@@ -1,0 +1,39 @@
+name: Idea proposal
+description: Suggest a new feature, automation, or creative profile section
+title: "idea: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Great ideas are welcome. Please describe what you want and why it matters.
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - README visual idea
+        - GitHub Action automation
+        - Repository governance
+        - New project showcase
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal details
+      placeholder: What should be added or changed?
+    validations:
+      required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Why is this useful?
+      placeholder: Describe the value for visitors or maintainers.
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria (optional)
+      placeholder: List a few bullet points that define done.

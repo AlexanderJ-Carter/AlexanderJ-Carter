@@ -16,15 +16,21 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: snake-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   build:
+    if: github.repository == 'AlexanderJ-Carter/AlexanderJ-Carter'
     runs-on: ubuntu-latest
-    env:
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+    timeout-minutes: 10
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
 
       - name: Generate snake animations
         uses: Platane/snk/svg-only@v3

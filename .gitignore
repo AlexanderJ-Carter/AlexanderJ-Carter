@@ -1,0 +1,7 @@
+# Local editor and agent settings
+.vscode/
+.claude/
+
+# OS artifacts
+.DS_Store
+Thumbs.db

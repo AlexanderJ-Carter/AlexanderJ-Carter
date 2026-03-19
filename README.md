@@ -7,6 +7,9 @@
   <a href="https://alexander.xin"><img alt="Website" src="https://img.shields.io/badge/website-alexander.xin-111827?style=for-the-badge&logo=safari&logoColor=white"></a>
   <a href="https://orcid.org/0009-0007-0343-4129"><img alt="ORCID" src="https://img.shields.io/badge/orcid-0009--0007--0343--4129-16a34a?style=for-the-badge&logo=orcid&logoColor=white"></a>
   <a href="https://github.com/AlexanderJ-Carter?tab=repositories"><img alt="Repos" src="https://img.shields.io/badge/repos-keep%20exploring-0ea5e9?style=for-the-badge&logo=github&logoColor=white"></a>
+  <a href="https://github.com/AlexanderJ-Carter/AlexanderJ-Carter/actions/workflows/profile-ci.yml"><img alt="Profile CI" src="https://img.shields.io/github/actions/workflow/status/AlexanderJ-Carter/AlexanderJ-Carter/profile-ci.yml?branch=main&style=for-the-badge&label=profile%20ci"></a>
+  <a href="https://github.com/AlexanderJ-Carter/AlexanderJ-Carter/actions/workflows/link-check.yml"><img alt="Link Check" src="https://img.shields.io/github/actions/workflow/status/AlexanderJ-Carter/AlexanderJ-Carter/link-check.yml?branch=main&style=for-the-badge&label=link%20check"></a>
+  <a href="https://github.com/AlexanderJ-Carter/AlexanderJ-Carter/actions/workflows/snake.yml"><img alt="Snake Build" src="https://img.shields.io/github/actions/workflow/status/AlexanderJ-Carter/AlexanderJ-Carter/snake.yml?branch=main&style=for-the-badge&label=snake%20build"></a>
 </p>
 
 <p align="center">
@@ -20,11 +23,20 @@
 
 ---
 
+## 🧭 Quick nav / 快速导航
+- [Me / 关于我](#about)
+- [Skills / 技能标签](#skills)
+- [Project shelf / 项目小展台](#projects)
+- [Snake / 贪吃蛇动效](#snake)
+- [Mini arcade / 小小游乐场](#arcade)
+- [Contact / 联系](#contact)
+
+<a id="about"></a>
 ## 🌈 Me / 关于我
 - 📍 北京 / Beijing
 - 🫖 节奏：清爽、稳定、带点小惊喜 / neat, steady, with little sparks
 - ✨ 关键词：好奇心 / 认真生活 / 偶尔发光
-- 🧡 也许你会在这里看到：作品、笔记、实验、以及一些”我觉得好玩”的东西
+- 🧡 也许你会在这里看到：作品、笔记、实验、以及一些“我觉得好玩”的东西
 
 ### 🖥️ Terminal / 终端模式
 
@@ -43,15 +55,16 @@
   <p>悄悄话：你看到这里，说明你是那种愿意认真看完的人。☕</p>
 </div>
 
+<a id="skills"></a>
 ## 🎯 Skills / 技能标签
 
 <p align="center">
   <!-- 编程语言 -->
-  <img src="https://skillicons.dev/icons?i=python,js,html,css,c,cpp,go,verilog,bash&perline=9" />
+  <img src="https://skillicons.dev/icons?i=python,js,html,css,c,cpp,go,verilog,bash&perline=9" alt="programming languages" />
 </p>
 <p align="center">
   <!-- 工具和框架 -->
-  <img src="https://skillicons.dev/icons?i=linux,git,github,vscode,vim,md,latex&perline=7" />
+  <img src="https://skillicons.dev/icons?i=linux,git,github,vscode,vim,md,latex&perline=7" alt="tools and frameworks" />
 </p>
 
 <!-- 🏆 GitHub Trophies 奖杯 -->
@@ -67,33 +80,35 @@
   <img src="https://github-readme-stats.vercel.app/api/wakatime?username=AlexanderJ-Carter&api_domain=wakatime.com&hide_progress=false&show_icons=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=FFFFFF" alt="coding time" />
 </p>
 
+<a id="projects"></a>
 ## 🧩 Project shelf / 项目小展台
 <p align="center">
   <a href="https://github.com/AlexanderJ-Carter/AlexanderJ-Carter.github.io">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=AlexanderJ-Carter&repo=AlexanderJ-Carter.github.io&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=FFFFFF&icon_color=58A6FF" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=AlexanderJ-Carter&repo=AlexanderJ-Carter.github.io&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=FFFFFF&icon_color=58A6FF" alt="AlexanderJ-Carter.github.io" />
   </a>
   <a href="https://github.com/AlexanderJ-Carter/MyCook">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=AlexanderJ-Carter&repo=MyCook&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=FFFFFF&icon_color=58A6FF" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=AlexanderJ-Carter&repo=MyCook&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=FFFFFF&icon_color=58A6FF" alt="MyCook" />
   </a>
 </p>
 <p align="center">
   <a href="https://github.com/AlexanderJ-Carter/MIPS-Pipeline-Verilog">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=AlexanderJ-Carter&repo=MIPS-Pipeline-Verilog&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=FFFFFF&icon_color=58A6FF" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=AlexanderJ-Carter&repo=MIPS-Pipeline-Verilog&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=FFFFFF&icon_color=58A6FF" alt="MIPS-Pipeline-Verilog" />
   </a>
   <a href="https://github.com/AlexanderJ-Carter/Git-Workflow-Lab">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=AlexanderJ-Carter&repo=Git-Workflow-Lab&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=FFFFFF&icon_color=58A6FF" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=AlexanderJ-Carter&repo=Git-Workflow-Lab&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=FFFFFF&icon_color=58A6FF" alt="Git-Workflow-Lab" />
   </a>
 </p>
 <p align="center">
   <a href="https://github.com/AlexanderJ-Carter/linux-command">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=AlexanderJ-Carter&repo=linux-command&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=FFFFFF&icon_color=58A6FF" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=AlexanderJ-Carter&repo=linux-command&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=FFFFFF&icon_color=58A6FF" alt="linux-command" />
   </a>
   <a href="https://github.com/AlexanderJ-Carter?tab=repositories">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=AlexanderJ-Carter&repo=AlexanderJ-Carter&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=FFFFFF&icon_color=58A6FF" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=AlexanderJ-Carter&repo=AlexanderJ-Carter&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=FFFFFF&icon_color=58A6FF" alt="AlexanderJ-Carter profile repository" />
   </a>
 </p>
 
 
+<a id="snake"></a>
 <h2>🐍 Snake / 贪吃蛇动效</h2>
 
 <p align="center">
@@ -105,19 +120,20 @@
 
 ---
 
+<a id="arcade"></a>
 ## 🎡 Mini arcade / 小小游乐场
 
 <!-- 活动波浪图 - Activity Graph -->
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AlexanderJ-Carter&bg_color=0D1117&color=58A6FF&line=58A6FF&point=FFFFFF&area=true&hide_border=true&custom_title=Contribution%20Journey" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AlexanderJ-Carter&bg_color=0D1117&color=58A6FF&line=58A6FF&point=FFFFFF&area=true&hide_border=true&custom_title=Contribution%20Journey" width="100%" alt="contribution journey graph" />
 </p>
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=AlexanderJ-Carter&show_icons=true&rank_icon=github&hide_title=false&include_all_commits=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=FFFFFF&ring_color=58A6FF" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AlexanderJ-Carter&layout=compact&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=FFFFFF&icon_color=58A6FF" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=AlexanderJ-Carter&show_icons=true&rank_icon=github&hide_title=false&include_all_commits=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=FFFFFF&ring_color=58A6FF" alt="github stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AlexanderJ-Carter&layout=compact&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=FFFFFF&icon_color=58A6FF" alt="top languages" />
 </p>
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=AlexanderJ-Carter&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=FF6B6B&currLabel=58A6FF&sideNums=FFFFFF&sideLabels=FFFFFF&dates=FFFFFF" />
+  <img src="https://streak-stats.demolab.com?user=AlexanderJ-Carter&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=FF6B6B&currLabel=58A6FF&sideNums=FFFFFF&sideLabels=FFFFFF&dates=FFFFFF" alt="github contribution streak" />
 </p>
 
 <!-- 彩蛋：折叠惊喜 -->
@@ -145,6 +161,27 @@
 
 ---
 
+## 🤝 Feedback / 共建
+
+<div align="center">
+  <a href="https://github.com/AlexanderJ-Carter/AlexanderJ-Carter/issues/new?template=bug-report.yml">
+    <img alt="Report Bug" src="https://img.shields.io/badge/Report-Bug%20Issue-e11d48?style=for-the-badge&logo=github&logoColor=white">
+  </a>
+  <a href="https://github.com/AlexanderJ-Carter/AlexanderJ-Carter/issues/new?template=idea-proposal.yml">
+    <img alt="Share Idea" src="https://img.shields.io/badge/Share-Idea%20Proposal-0ea5e9?style=for-the-badge&logo=lightbulb&logoColor=white">
+  </a>
+  <a href="https://github.com/AlexanderJ-Carter/AlexanderJ-Carter/releases">
+    <img alt="Release Notes" src="https://img.shields.io/badge/View-Release%20Notes-16a34a?style=for-the-badge&logo=github&logoColor=white">
+  </a>
+</div>
+
+<p align="center">
+  <sub>协作规范与分支保护建议见 GOVERNANCE.md。</sub>
+</p>
+
+---
+
+<a id="contact"></a>
 <h2>🛰️ Contact / 联系</h2>
 
 <div align="center">

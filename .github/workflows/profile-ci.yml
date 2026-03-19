@@ -1,0 +1,44 @@
+name: Profile CI
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - README.md
+      - .github/**
+      - .markdownlint.json
+  pull_request:
+    branches:
+      - main
+    paths:
+      - README.md
+      - .github/**
+      - .markdownlint.json
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  markdown-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Lint markdown files
+        uses: DavidAnson/markdownlint-cli2-action@v20
+        with:
+          globs: |
+            README.md
+            .github/**/*.md
+
+  workflow-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Lint GitHub Actions workflows
+        uses: rhysd/actionlint@v1

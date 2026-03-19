@@ -1,0 +1,52 @@
+name-template: "v$RESOLVED_VERSION"
+tag-template: "v$RESOLVED_VERSION"
+template: |
+  ## What's Changed
+
+  $CHANGES
+
+  ## Notes
+  - Profile and automation updates are curated for readability and reliability.
+
+categories:
+  - title: "README & Visual"
+    labels:
+      - docs
+      - readme
+      - visual
+  - title: "CI/CD & Automation"
+    labels:
+      - ci
+      - automation
+      - github-actions
+  - title: "Maintenance"
+    labels:
+      - chore
+      - dependencies
+
+change-template: "- $TITLE by @$AUTHOR (#$NUMBER)"
+version-resolver:
+  major:
+    labels:
+      - major
+  minor:
+    labels:
+      - enhancement
+      - feature
+  patch:
+    labels:
+      - bug
+      - fix
+      - chore
+  default: patch
+
+exclude-labels:
+  - skip-changelog
+
+autolabeler:
+  - label: docs
+    files:
+      - "README.md"
+  - label: github-actions
+    files:
+      - ".github/workflows/*"

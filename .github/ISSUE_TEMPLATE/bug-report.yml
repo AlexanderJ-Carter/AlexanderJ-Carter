@@ -1,0 +1,51 @@
+name: Bug report
+description: Report a rendering issue, broken badge, or automation failure
+title: "bug: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking time to report this issue.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Affected area
+      options:
+        - README rendering
+        - GitHub Actions workflow
+        - Profile card/badge
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happened?
+      placeholder: Describe the issue clearly and briefly.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Go to ...
+        2. Click ...
+        3. See error ...
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      placeholder: What should happen instead?
+  - type: input
+    id: browser
+    attributes:
+      label: Browser / Client
+      placeholder: e.g. Chrome 135, GitHub mobile app, Safari
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or screenshots
+      placeholder: Paste workflow logs, screenshots, or links.

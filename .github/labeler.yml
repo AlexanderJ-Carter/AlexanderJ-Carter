@@ -1,0 +1,24 @@
+readme:
+  - changed-files:
+      - any-glob-to-any-file:
+          - README.md
+
+ci:
+  - changed-files:
+      - any-glob-to-any-file:
+          - .github/workflows/**
+
+governance:
+  - changed-files:
+      - any-glob-to-any-file:
+          - .github/CODEOWNERS
+          - .github/pull_request_template.md
+          - .github/ISSUE_TEMPLATE/**
+
+maintenance:
+  - changed-files:
+      - any-glob-to-any-file:
+          - .github/dependabot.yml
+          - .markdownlint.json
+          - .lycheeignore
+          - .gitignore
