@@ -67,17 +67,17 @@
   <img src="https://skillicons.dev/icons?i=linux,git,github,vscode,vim,md,latex&perline=7" alt="tools and frameworks" />
 </p>
 
-<!-- 🏆 GitHub Trophies 奖杯 -->
+<!-- 🏆 Achievement Snapshot 成就快照 -->
 <h3 align="center">🏆 Achievements / 成就</h3>
 <p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=AlexanderJ-Carter&theme=tokyonight&no-frame=false&no-bg=false&margin-w=4&margin-h=4&column=6" width="100%" alt="trophy" />
-  </a>
+  <img src="https://img.shields.io/github/followers/AlexanderJ-Carter?style=for-the-badge&label=followers&color=58A6FF" alt="followers" />
+  <img src="https://img.shields.io/github/stars/AlexanderJ-Carter?style=for-the-badge&label=stars&color=f59e0b" alt="stars" />
+  <img src="https://img.shields.io/github/last-commit/AlexanderJ-Carter/AlexanderJ-Carter?style=for-the-badge&label=last%20update&color=22c55e" alt="last update" />
 </p>
 
-<!-- ⏱️ Coding Time 编码时间统计 -->
+<!-- ⏱️ Coding Rhythm 编码节奏 -->
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=AlexanderJ-Carter&api_domain=wakatime.com&hide_progress=false&show_icons=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=FFFFFF" alt="coding time" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=AlexanderJ-Carter&theme=github_dark" alt="coding rhythm by time" />
 </p>
 
 <a id="projects"></a>

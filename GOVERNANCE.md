@@ -22,6 +22,14 @@ Personal profile hub of AlexanderJ-Carter: projects, notes, experiments, and cre
 - Profile CI / markdown-lint
 - Profile CI / workflow-lint
 
+## Branch Protection JSON Import
+- JSON payload file: .github/branch-protection-main.json
+- Apply with GitHub CLI:
+
+```bash
+gh api --method PUT repos/AlexanderJ-Carter/AlexanderJ-Carter/branches/main/protection --input .github/branch-protection-main.json
+```
+
 ## Automation Summary
 - Snake animation generation: .github/workflows/snake.yml
 - Profile quality checks: .github/workflows/profile-ci.yml
