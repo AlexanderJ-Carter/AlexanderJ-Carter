@@ -1,9 +1,17 @@
-name: Generate Snake
+name: Generate Snake Animation
 
 on:
+  # 每12小时运行一次
   schedule:
     - cron: "0 */12 * * *"
+  # 允许手动触发
   workflow_dispatch:
+  # 推送到main分支时也触发
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/snake.yml'
 
 permissions:
   contents: write
@@ -13,16 +21,23 @@ jobs:
     runs-on: ubuntu-latest
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
-    steps:
-      - uses: actions/checkout@v4
 
-      - name: Generate snake
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate snake animations
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: AlexanderJ-Carter
+          # 配置颜色主题
+          color-snake: '#58A6FF'
+          color-dots: '#1f6feb,#388bfd,#58A6FF,#79c0ff'
+          # 输出多种格式
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake-ocean.svg?color-snake=#06b6d4&color-dots=#0e4429,#006d32,#26a641,#39d353
 
       - name: Deploy to output branch
         uses: JamesIves/github-pages-deploy-action@v4.8.0
