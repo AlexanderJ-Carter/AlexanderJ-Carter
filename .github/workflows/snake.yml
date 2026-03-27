@@ -1,9 +1,9 @@
 name: Generate Snake Animation
 
 on:
-  # 每12小时运行一次
+  # 每天凌晨2点运行一次
   schedule:
-    - cron: "0 */12 * * *"
+    - cron: "0 2 * * *"
   # 允许手动触发
   workflow_dispatch:
   # 推送到main分支时也触发
@@ -11,7 +11,7 @@ on:
     branches:
       - main
     paths:
-      - '.github/workflows/snake.yml'
+      - ".github/workflows/snake.yml"
 
 permissions:
   contents: write
@@ -37,8 +37,8 @@ jobs:
         with:
           github_user_name: AlexanderJ-Carter
           # 配置颜色主题
-          color-snake: '#58A6FF'
-          color-dots: '#1f6feb,#388bfd,#58A6FF,#79c0ff'
+          color-snake: "#58A6FF"
+          color-dots: "#1f6feb,#388bfd,#58A6FF,#79c0ff"
           # 输出多种格式
           outputs: |
             dist/github-contribution-grid-snake.svg

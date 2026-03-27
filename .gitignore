@@ -5,3 +5,9 @@
 # OS artifacts
 .DS_Store
 Thumbs.db
+
+# Common temporary files
+*.log
+*.tmp
+*.temp
+.env.local
