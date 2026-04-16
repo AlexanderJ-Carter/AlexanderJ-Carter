@@ -1,6 +1,24 @@
 name: Link Check
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - README.md
+      - SECURITY.md
+      - GOVERNANCE.md
+      - .github/**/*.md
+      - .lycheeignore
+  pull_request:
+    branches:
+      - main
+    paths:
+      - README.md
+      - SECURITY.md
+      - GOVERNANCE.md
+      - .github/**/*.md
+      - .lycheeignore
   schedule:
     - cron: "0 3 * * 1"
   workflow_dispatch:
@@ -8,8 +26,13 @@ on:
 permissions:
   contents: read
 
+concurrency:
+  group: link-check-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   lychee:
+    if: github.repository == 'AlexanderJ-Carter/AlexanderJ-Carter'
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
@@ -28,7 +51,7 @@ jobs:
             --retry-wait-time 5
             --timeout 20
             --exclude-file .lycheeignore
-            README.md .github/**/*.md
+            README.md SECURITY.md GOVERNANCE.md .github/**/*.md
           fail: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

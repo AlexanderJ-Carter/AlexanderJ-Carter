@@ -6,6 +6,9 @@ on:
       - main
     paths:
       - README.md
+      - SECURITY.md
+      - GOVERNANCE.md
+      - assets/**
       - .github/**
       - .markdownlint.json
   pull_request:
@@ -13,6 +16,9 @@ on:
       - main
     paths:
       - README.md
+      - SECURITY.md
+      - GOVERNANCE.md
+      - assets/**
       - .github/**
       - .markdownlint.json
   workflow_dispatch:
@@ -20,9 +26,14 @@ on:
 permissions:
   contents: read
 
+concurrency:
+  group: profile-ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   markdown-lint:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
@@ -32,13 +43,36 @@ jobs:
         with:
           globs: |
             README.md
+            SECURITY.md
+            GOVERNANCE.md
             .github/**/*.md
 
   workflow-lint:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
 
       - name: Lint GitHub Actions workflows
         uses: rhysd/actionlint@v1.7.11
+
+  readme-assets:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Validate local README assets
+        shell: bash
+        run: |
+          set -euo pipefail
+          refs=$(grep -oE '\./assets/[A-Za-z0-9._/-]+\.svg' README.md | sort -u)
+          test -n "$refs"
+          for ref in $refs; do
+            if [ ! -f "${ref#./}" ]; then
+              echo "Missing asset referenced by README: $ref" >&2
+              exit 1
+            fi
+          done

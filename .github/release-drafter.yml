@@ -47,6 +47,13 @@ autolabeler:
   - label: docs
     files:
       - "README.md"
+      - "SECURITY.md"
+      - "GOVERNANCE.md"
+      - "assets/**"
   - label: github-actions
     files:
       - ".github/workflows/*"
+  - label: visual
+    files:
+      - "README.md"
+      - "assets/**"

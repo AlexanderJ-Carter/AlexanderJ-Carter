@@ -10,10 +10,15 @@ permissions:
   contents: write
   pull-requests: read
 
+concurrency:
+  group: release-drafter-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   update_release_draft:
     if: github.repository == 'AlexanderJ-Carter/AlexanderJ-Carter'
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
       - name: Update draft release
         uses: release-drafter/release-drafter@v6

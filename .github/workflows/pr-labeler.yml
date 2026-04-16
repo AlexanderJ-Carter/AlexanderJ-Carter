@@ -16,6 +16,7 @@ jobs:
   label:
     if: github.repository == 'AlexanderJ-Carter/AlexanderJ-Carter'
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
       - name: Auto label PR by file paths
         uses: actions/labeler@v5

@@ -2,11 +2,18 @@ readme:
   - changed-files:
       - any-glob-to-any-file:
           - README.md
+          - assets/**
 
 ci:
   - changed-files:
       - any-glob-to-any-file:
           - .github/workflows/**
+
+visual:
+  - changed-files:
+      - any-glob-to-any-file:
+          - README.md
+          - assets/**
 
 governance:
   - changed-files:
@@ -14,6 +21,7 @@ governance:
           - .github/CODEOWNERS
           - .github/pull_request_template.md
           - .github/ISSUE_TEMPLATE/**
+          - GOVERNANCE.md
 
 maintenance:
   - changed-files:
@@ -22,3 +30,4 @@ maintenance:
           - .markdownlint.json
           - .lycheeignore
           - .gitignore
+          - SECURITY.md

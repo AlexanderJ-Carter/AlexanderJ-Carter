@@ -22,6 +22,10 @@ Personal profile hub of AlexanderJ-Carter: projects, notes, experiments, and cre
 - Profile CI / markdown-lint
 - Profile CI / workflow-lint
 
+## Optional but Recommended Checks
+- Link Check / lychee
+- Snake build workflow health
+
 ## Branch Protection JSON Import
 - JSON payload file: .github/branch-protection-main.json
 - Apply with GitHub CLI:

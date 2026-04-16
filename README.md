@@ -21,14 +21,20 @@
   <sub>🌤️ 日子不必很耀眼，但要很喜欢。 / Warm, not perfect.</sub>
 </p>
 
+<p align="center">
+  <img src="./assets/ambient-lab.svg" alt="ambient lab scene" width="100%" />
+</p>
+
 ---
 
 ## 🧭 Quick nav / 快速导航
 - [Me / 关于我](#about)
+- [Now / 此刻状态](#now)
 - [Skills / 技能标签](#skills)
 - [Project shelf / 项目小展台](#projects)
 - [Snake / 贪吃蛇动效](#snake)
 - [Mini arcade / 小小游乐场](#arcade)
+- [Feedback / 共建](#feedback)
 - [Contact / 联系](#contact)
 
 <a id="about"></a>
@@ -38,13 +44,16 @@
 - ✨ 关键词：好奇心 / 认真生活 / 偶尔发光
 - 🧡 也许你会在这里看到：作品、笔记、实验、以及一些“我觉得好玩”的东西
 
+> 这是我在互联网上的一块长期更新的小角落，记录正在学习的内容、认真做的项目，以及偶尔冒出来的灵感。
+
 ### 🖥️ Terminal / 终端模式
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=800&center=true&vCenter=true&width=540&height=200&lines=%24+whoami;AlexanderJ-Carter+%7C+Student+%7C+Developer;%24+cat+interests.txt;Coding+%7C+Electronics+%7C+Linux+%7C+Music;%24+echo+%24STATUS;status%3A+learning+%7C+mood%3A+curious;%24+echo+%22Thanks+for+visiting!%22;Welcome+to+my+GitHub+world&background=0D1117&color=58A6FF" alt="Terminal" />
 </p>
 
-<h2>🎛️ Today / 今日</h2>
+<a id="now"></a>
+<h2>🎛️ Now / 此刻状态</h2>
 
 <div align="center">
   <p><b>今天适合</b>：把事情做小一点、做完一点点</p>
@@ -54,6 +63,15 @@
 
   <p>悄悄话：你看到这里，说明你是那种愿意认真看完的人。☕</p>
 </div>
+
+<p align="center">
+  <img src="./assets/signal-strip.svg" alt="signal strip" width="100%" />
+</p>
+
+### 🪐 Side quests / 支线任务
+- Trying to make code, notes, and aesthetics live in the same space / 想把代码、笔记和一点审美感放在同一个页面里
+- Enjoying tiny interactions, terminal toys, and surprisingly nice details / 偏爱小互动、终端小玩具和让人会心一笑的细节
+- Building slowly enough to stay honest, fast enough to stay excited / 做得慢一点，才能做得真；也保留一点兴奋感
 
 <a id="skills"></a>
 ## 🎯 Skills / 技能标签
@@ -75,19 +93,73 @@
   <img src="https://img.shields.io/github/last-commit/AlexanderJ-Carter/AlexanderJ-Carter?style=for-the-badge&label=last%20update&color=22c55e" alt="last update" />
 </p>
 
+### 📌 Focus / 当前关注
+- Building practical things step by step / 把想法做成能用的小东西
+- Keeping notes around software, electronics, Linux, and Verilog / 持续整理软件、电子、Linux、Verilog 相关笔记
+- Learning in public, slowly but consistently / 慢一点，但一直向前
+
 <!-- ⏱️ Coding Rhythm 编码节奏 -->
 <p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=AlexanderJ-Carter&theme=github_dark" alt="coding rhythm by time" />
 </p>
 
+<details>
+<summary>🧪 Lab notes / 最近在折腾什么</summary>
+
+```text
+01. make ideas visible
+02. keep tools sharp
+03. write things down before they disappear
+04. leave some room for delightful nonsense
+```
+
+</details>
+
 <a id="projects"></a>
 ## 🧩 Project shelf / 项目小展台
+
+### 🤝 Collaboration / 参与项目
+- [`AgentSociety / AgentSociety2`](https://github.com/tsinghua-fib-lab/AgentSociety): contributor / 参与贡献
+
+<p align="center">
+  <img src="./assets/agentsociety2-featured.svg" alt="AgentSociety2 featured card" width="100%" />
+</p>
+
+> A project worth exploring if you're interested in LLM-driven social simulation, urban scenarios, and agent systems that feel closer to real-world complexity.  
+> 如果你对 LLM 驱动的社会模拟、城市场景和更贴近真实复杂性的 agent system 感兴趣，这个项目很值得看看。
+
+### 🌆 Why it is interesting / 为什么值得看
+- Large-scale social simulation with LLM-driven agents / 用 LLM 驱动 agent 做大规模社会模拟
+- Built around urban environments, interaction, and behavior modeling / 围绕城市环境、交互与行为建模展开
+- Includes visualization, tooling, examples, and public documentation / 有可视化、工具链、示例和公开文档
+
+<p align="center">
+  <a href="https://github.com/tsinghua-fib-lab/AgentSociety">
+    <img src="https://img.shields.io/github/stars/tsinghua-fib-lab/AgentSociety?style=for-the-badge&label=AgentSociety%20stars&color=0ea5e9" alt="AgentSociety stars" />
+  </a>
+  <a href="https://github.com/tsinghua-fib-lab/AgentSociety/releases">
+    <img src="https://img.shields.io/badge/latest-AgentSociety2%202.1.3-16a34a?style=for-the-badge&logo=github&logoColor=white" alt="AgentSociety2 latest release" />
+  </a>
+  <a href="https://agentsociety.readthedocs.io/en/latest/">
+    <img src="https://img.shields.io/badge/docs-read%20the%20documentation-f97316?style=for-the-badge&logo=readthedocs&logoColor=white" alt="AgentSociety documentation" />
+  </a>
+</p>
+
 <p align="center">
   <a href="https://github.com/AlexanderJ-Carter/AlexanderJ-Carter.github.io">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=AlexanderJ-Carter&repo=AlexanderJ-Carter.github.io&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=FFFFFF&icon_color=58A6FF" alt="AlexanderJ-Carter.github.io" />
   </a>
   <a href="https://github.com/AlexanderJ-Carter/MyCook">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=AlexanderJ-Carter&repo=MyCook&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=FFFFFF&icon_color=58A6FF" alt="MyCook" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/tsinghua-fib-lab/AgentSociety/releases">
+    <img src="https://img.shields.io/badge/AgentSociety2-collaboration%20highlight-0f172a?style=for-the-badge&logo=github&logoColor=white" alt="AgentSociety2 collaboration highlight" />
+  </a>
+  <a href="https://github.com/tsinghua-fib-lab/AgentSociety">
+    <img src="https://img.shields.io/badge/contributor-project%20contributor-f97316?style=for-the-badge&logo=git&logoColor=white" alt="project contributor" />
   </a>
 </p>
 <p align="center">
@@ -157,10 +229,17 @@
   <img src="https://quotes-github-readme.vercel.app/api?type=vertical&theme=tokyonight" alt="random quote" />
 </p>
 
+```text
+> boot sequence complete
+> loading curiosity modules...
+> ready to build something fun
+```
+
 </details>
 
 ---
 
+<a id="feedback"></a>
 ## 🤝 Feedback / 共建
 
 <div align="center">
@@ -176,7 +255,7 @@
 </div>
 
 <p align="center">
-  <sub>协作规范与分支保护建议见 GOVERNANCE.md。</sub>
+  <sub>协作规范、分支保护建议与自动化说明见 <a href="./GOVERNANCE.md">GOVERNANCE.md</a>。</sub>
 </p>
 
 ---
@@ -197,6 +276,7 @@
 </div>
 
 <p align="center">
+  <sub>如果你是来交流项目、学习路径或有趣想法，欢迎通过 GitHub 与我联系。</sub><br/>
   <sub>愿你每天都有一点点喜欢的东西。 / May you find something you like every day.</sub><br/>
   <img src="https://komarev.com/ghpvc/?username=AlexanderJ-Carter&style=for-the-badge&color=ff69b4" alt="visitors" />
 </p>
