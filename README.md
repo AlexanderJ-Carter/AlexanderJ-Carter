@@ -26,7 +26,7 @@
 <a id="about"></a>
 ## 🌈 Me / 关于我
 - 📍 北京 / Beijing
-- 🫖 风格：清爽、稳定、长期主义 / neat, steady, long-term
+- 🫖 风格：清爽、稳定、长期主义 / neat, steady, long-term mindset
 - ✨ 关键词：好奇心、实践、持续记录
 
 > 这里是我的长期更新角落：记录学习、项目与实验。
