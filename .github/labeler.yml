@@ -31,3 +31,11 @@ maintenance:
           - .lycheeignore
           - .gitignore
           - SECURITY.md
+          - docs/**
+
+research:
+  - changed-files:
+      - any-glob-to-any-file:
+          - README.md
+          - assets/agentsociety2-featured.svg
+          - docs/superpowers/specs/**

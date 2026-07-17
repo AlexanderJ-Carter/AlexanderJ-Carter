@@ -14,6 +14,7 @@ body:
       label: Category
       options:
         - README visual idea
+        - Research / publications update
         - GitHub Action automation
         - Repository governance
         - New project showcase

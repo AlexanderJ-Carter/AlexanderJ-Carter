@@ -6,64 +6,81 @@
 <p align="center">
   <a href="https://alexander.xin"><img alt="Website" src="https://img.shields.io/badge/website-alexander.xin-111827?style=for-the-badge&logo=safari&logoColor=white"></a>
   <a href="https://orcid.org/0009-0007-0343-4129"><img alt="ORCID" src="https://img.shields.io/badge/orcid-0009--0007--0343--4129-16a34a?style=for-the-badge&logo=orcid&logoColor=white"></a>
+  <a href="#publications"><img alt="Publications" src="https://img.shields.io/badge/publications-list-0ea5e9?style=for-the-badge&logo=googlescholar&logoColor=white"></a>
   <a href="https://github.com/AlexanderJ-Carter/AlexanderJ-Carter/actions/workflows/profile-ci.yml"><img alt="Profile CI" src="https://img.shields.io/github/actions/workflow/status/AlexanderJ-Carter/AlexanderJ-Carter/profile-ci.yml?branch=main&style=for-the-badge&label=profile%20ci"></a>
 </p>
 
 <p align="center">
-  <sub>🌤️ 日子不必很耀眼，但要很喜欢。 / Warm, not perfect.</sub>
+  <sub>🌤️ 日子不必很耀眼，但要很喜欢。 / Warm, not perfect.</sub><br />
+  <em>学生开发者 · LLM Agent 与可执行社会科学 / Student developer · LLM agents &amp; executable social science</em>
 </p>
 
 ---
 
-## 🧭 Quick nav / 快速导航
-- [Me / 关于我](#about)
-- [Now / 此刻状态](#now)
-- [Skills / 技能标签](#skills)
-- [Projects / 项目](#projects)
-- [Snake / 贪吃蛇](#snake)
-- [Contact / 联系](#contact)
+## Quick nav / 快速导航
+
+[About](#about) · [Research](#research) · [Publications](#publications) · [Projects](#projects) · [Now](#now) · [Snake](#snake) · [Contact](#contact)
 
 <a id="about"></a>
-## 🌈 Me / 关于我
+## About / 关于
+
 - 📍 北京 / Beijing
-- 🫖 风格：清爽、稳定、长期主义 / neat, steady, long-term mindset
-- ✨ 关键词：好奇心、实践、持续记录
+- 🫖 清爽、稳定、长期主义 / neat, steady, long-term
+- ✨ 好奇心、实践、持续记录 / curiosity, practice, public notes
+- 🧩 软件 · 电子 · Linux · Verilog；把研究想法做成可运行系统 / software, electronics, Linux, Verilog — turning research ideas into runnable systems
 
-> 这里是我的长期更新角落：记录学习、项目与实验。
+> 长期更新的个人角落：研究协作、开源工程与生活实验。  
+> A long-running corner for research collaboration, open-source engineering, and small experiments.
 
-<a id="now"></a>
-## 🎛️ Now / 此刻状态
-- Building practical things step by step / 把想法做成能用的小东西
-- Keeping notes on software, electronics, Linux, and Verilog / 持续整理软件、电子、Linux、Verilog 笔记
-- Learning in public, slowly but consistently / 慢一点，但一直向前
+<a id="research"></a>
+## Research / 研究
+
+**LLM 驱动的社会智能体**、**可执行社会科学**，以及把假设变成可审计仿真与研究工作流的基础设施。  
+**LLM-driven social agents**, **executable social science**, and infrastructure that turns hypotheses into auditable simulations and research workflows.
+
+### Collaboration / 协作
+
+主线协作：[AgentSociety](https://github.com/tsinghua-fib-lab/AgentSociety) / AgentSociety 2（扩展与配置、CI / 安全、文档、Windows 兼容、社会人仿真技能）。  
+Primary collaboration: [AgentSociety](https://github.com/tsinghua-fib-lab/AgentSociety) / AgentSociety 2 (extension & config, CI / security, docs, Windows compatibility, socially grounded agent skills).
+
+- Lab: [Tsinghua FIB Lab — AgentSociety](https://github.com/tsinghua-fib-lab/AgentSociety)
+- Platform: [agentsociety2.fiblab.net](https://agentsociety2.fiblab.net/)
+- Related platform paper: [AgentSociety (arXiv:2502.08691)](https://arxiv.org/abs/2502.08691)
 
 <p align="center">
-  <img src="./assets/ambient-lab.svg" alt="ambient lab scene" width="100%" />
+  <a href="https://github.com/tsinghua-fib-lab/AgentSociety">
+    <img src="./assets/agentsociety2-featured.svg" alt="AgentSociety 2 featured card" width="100%" />
+  </a>
 </p>
 
-<a id="skills"></a>
-## 🎯 Skills / 技能标签
+<a id="publications"></a>
+## Publications / 论文
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,js,html,css,c,cpp,go,verilog,bash,linux,git,github,vscode,vim,md,latex&perline=8" alt="skills" />
-</p>
+按时间倒序；新作在表顶追加一行。权威档案：[ORCID](https://orcid.org/0009-0007-0343-4129)。  
+Newest first — append new rows at the top. Canonical record: [ORCID](https://orcid.org/0009-0007-0343-4129).
+
+| Year | Title | Venue | Links |
+| --- | --- | --- | --- |
+| 2026 | [AgentSociety 2: An Integrated Research Environment for Executable Social Science](https://arxiv.org/abs/2607.11895) | arXiv preprint | [abs](https://arxiv.org/abs/2607.11895) · [pdf](https://arxiv.org/pdf/2607.11895) |
 
 <a id="projects"></a>
-## 🧩 Projects / 项目
+## Projects / 项目
 
-### 🤝 Featured collaboration / 参与项目
-- [`AgentSociety / AgentSociety2`](https://github.com/tsinghua-fib-lab/AgentSociety): contributor / 参与贡献
+### Featured / 精选
+
+| Project | Role | Notes |
+| --- | --- | --- |
+| [AgentSociety](https://github.com/tsinghua-fib-lab/AgentSociety) | Contributor & co-author | LLM-native IRE for executable social science |
+| [AgentSociety2-Agent-Skills](https://github.com/AlexanderJ-Carter/AgentSociety2-Agent-Skills) | Author | Theory-grounded skills for socially grounded agents |
+
+### Selected / 自研精选
 
 <p align="center">
-  <img src="./assets/agentsociety2-featured.svg" alt="AgentSociety2 featured card" width="100%" />
-</p>
-
-<p align="center">
+  <a href="https://github.com/AlexanderJ-Carter/AgentSociety2-Agent-Skills">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=AlexanderJ-Carter&repo=AgentSociety2-Agent-Skills&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=FFFFFF&icon_color=58A6FF" alt="AgentSociety2-Agent-Skills" />
+  </a>
   <a href="https://github.com/AlexanderJ-Carter/AlexanderJ-Carter.github.io">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=AlexanderJ-Carter&repo=AlexanderJ-Carter.github.io&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=FFFFFF&icon_color=58A6FF" alt="AlexanderJ-Carter.github.io" />
-  </a>
-  <a href="https://github.com/AlexanderJ-Carter/MyCook">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=AlexanderJ-Carter&repo=MyCook&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=FFFFFF&icon_color=58A6FF" alt="MyCook" />
   </a>
 </p>
 
@@ -71,38 +88,54 @@
   <a href="https://github.com/AlexanderJ-Carter/MIPS-Pipeline-Verilog">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=AlexanderJ-Carter&repo=MIPS-Pipeline-Verilog&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=FFFFFF&icon_color=58A6FF" alt="MIPS-Pipeline-Verilog" />
   </a>
-  <a href="https://github.com/AlexanderJ-Carter/linux-command">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=AlexanderJ-Carter&repo=linux-command&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=FFFFFF&icon_color=58A6FF" alt="linux-command" />
+  <a href="https://github.com/AlexanderJ-Carter/netq">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=AlexanderJ-Carter&repo=netq&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=FFFFFF&icon_color=58A6FF" alt="netq" />
   </a>
 </p>
 
+More / 更多：
+
+- [MyCook](https://github.com/AlexanderJ-Carter/MyCook) · [cook.alexander.xin](https://cook.alexander.xin)
+- [Git-Workflow-Lab](https://github.com/AlexanderJ-Carter/Git-Workflow-Lab) · [lab.alexander.xin](https://lab.alexander.xin)
+- [linux-command](https://github.com/AlexanderJ-Carter/linux-command) · [linux-command.alexander.xin](https://linux-command.alexander.xin)
+
+<a id="now"></a>
+## Now & Skills / 此刻与技能
+
+### Now
+
+- AgentSociety 2 工程与社会人仿真技能 / AgentSociety 2 engineering and social-agent skills
+- 软件、电子、Linux、Verilog 笔记 / Notes on software, electronics, Linux, and Verilog
+- 慢一点，但一直向前 / Learning in public, slowly but consistently
+
+<p align="center">
+  <img src="./assets/ambient-lab.svg" alt="ambient lab scene" width="100%" />
+</p>
+
+### Skills
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,js,ts,html,css,c,cpp,go,verilog,bash,linux,git,github,vscode,vim,md,latex&perline=8" alt="skills" />
+</p>
+
 <a id="snake"></a>
-## 🐍 Snake / 贪吃蛇
+## Snake / 贡献轨迹
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AlexanderJ-Carter/AlexanderJ-Carter/output/github-contribution-grid-snake-dark.svg" />
-    <img alt="snake animation" src="https://raw.githubusercontent.com/AlexanderJ-Carter/AlexanderJ-Carter/output/github-contribution-grid-snake.svg" />
+    <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/AlexanderJ-Carter/AlexanderJ-Carter/output/github-contribution-grid-snake.svg" />
   </picture>
 </p>
 
 ---
 
 <a id="contact"></a>
-## 🛰️ Contact / 联系
+## Contact / 联系
 
-<div align="center">
-  <a href="https://alexander.xin">
-    <img alt="Website" src="https://img.shields.io/badge/Website-alexander.xin-111827?style=for-the-badge&logo=safari&logoColor=white">
-  </a>
-  <a href="https://orcid.org/0009-0007-0343-4129">
-    <img alt="ORCID" src="https://img.shields.io/badge/ORCID-0009--0007--0343--4129-16a34a?style=for-the-badge&logo=orcid&logoColor=white">
-  </a>
-  <a href="https://github.com/AlexanderJ-Carter?tab=repositories">
-    <img alt="GitHub" src="https://img.shields.io/badge/GitHub-AlexanderJ--Carter-0ea5e9?style=for-the-badge&logo=github&logoColor=white">
-  </a>
-</div>
+- Website: [alexander.xin](https://alexander.xin)
+- ORCID: [0009-0007-0343-4129](https://orcid.org/0009-0007-0343-4129)
+- Publications: [list above](#publications)
+- GitHub: [AlexanderJ-Carter](https://github.com/AlexanderJ-Carter)
 
-<p align="center">
-  <sub>欢迎交流项目、学习路径或有趣想法。/ Feel free to reach out for ideas and collaboration.</sub>
-</p>
+欢迎交流研究、项目或有趣想法。 / Feel free to reach out about research, projects, or ideas.

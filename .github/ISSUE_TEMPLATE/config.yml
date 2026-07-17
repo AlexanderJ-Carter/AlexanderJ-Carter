@@ -3,6 +3,9 @@ contact_links:
   - name: Personal website
     url: https://alexander.xin
     about: Explore projects, notes, and contact options
+  - name: ORCID profile
+    url: https://orcid.org/0009-0007-0343-4129
+    about: Canonical academic record — publications update here over time
   - name: Repository overview
     url: https://github.com/AlexanderJ-Carter/AlexanderJ-Carter
     about: Read the profile README and workflow status first
