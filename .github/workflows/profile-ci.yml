@@ -9,6 +9,7 @@ on:
       - SECURITY.md
       - GOVERNANCE.md
       - assets/**
+      - docs/**
       - .github/**
       - .markdownlint.json
   pull_request:
@@ -19,6 +20,7 @@ on:
       - SECURITY.md
       - GOVERNANCE.md
       - assets/**
+      - docs/**
       - .github/**
       - .markdownlint.json
   workflow_dispatch:
@@ -45,6 +47,7 @@ jobs:
             README.md
             SECURITY.md
             GOVERNANCE.md
+            docs/**/*.md
             .github/**/*.md
 
   workflow-lint:
@@ -68,11 +71,20 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          refs=$(grep -oE '\./assets/[A-Za-z0-9._/-]+\.svg' README.md | sort -u)
-          test -n "$refs"
-          for ref in $refs; do
+          mapfile -t refs < <(grep -oE '\./assets/[A-Za-z0-9._/-]+\.svg' README.md | sort -u)
+          if [ "${#refs[@]}" -eq 0 ]; then
+            echo "README.md references no local ./assets/*.svg files" >&2
+            exit 1
+          fi
+          for ref in "${refs[@]}"; do
             if [ ! -f "${ref#./}" ]; then
               echo "Missing asset referenced by README: $ref" >&2
               exit 1
             fi
           done
+          while IFS= read -r -d '' asset; do
+            if ! grep -qF "./${asset}" README.md; then
+              echo "Orphan asset not referenced by README: ${asset}" >&2
+              exit 1
+            fi
+          done < <(find assets -type f -name '*.svg' -print0)

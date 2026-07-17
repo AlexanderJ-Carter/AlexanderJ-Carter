@@ -1,12 +1,9 @@
 name: Generate Snake Animation
 
 on:
-  # 每天凌晨2点运行一次
   schedule:
     - cron: "0 2 * * *"
-  # 允许手动触发
   workflow_dispatch:
-  # 推送到main分支时也触发
   push:
     branches:
       - main
@@ -36,10 +33,8 @@ jobs:
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: AlexanderJ-Carter
-          # 配置颜色主题
           color-snake: "#58A6FF"
           color-dots: "#1f6feb,#388bfd,#58A6FF,#79c0ff"
-          # 输出多种格式
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
