@@ -6,7 +6,7 @@
 <p align="center">
   <a href="https://alexander.xin"><img alt="Website" src="https://img.shields.io/badge/website-alexander.xin-111827?style=for-the-badge&logo=safari&logoColor=white"></a>
   <a href="https://orcid.org/0009-0007-0343-4129"><img alt="ORCID" src="https://img.shields.io/badge/orcid-0009--0007--0343--4129-16a34a?style=for-the-badge&logo=orcid&logoColor=white"></a>
-  <a href="#publications"><img alt="Publications" src="https://img.shields.io/badge/publications-list-0ea5e9?style=for-the-badge&logo=googlescholar&logoColor=white"></a>
+  <a href="https://github.com/AlexanderJ-Carter#publications"><img alt="Publications" src="https://img.shields.io/badge/publications-list-0ea5e9?style=for-the-badge&logo=googlescholar&logoColor=white"></a>
   <a href="https://github.com/AlexanderJ-Carter/AlexanderJ-Carter/actions/workflows/profile-ci.yml"><img alt="Profile CI" src="https://img.shields.io/github/actions/workflow/status/AlexanderJ-Carter/AlexanderJ-Carter/profile-ci.yml?branch=main&style=for-the-badge&label=profile%20ci"></a>
 </p>
 
@@ -75,29 +75,15 @@ Newest first — append new rows at the top. Canonical record: [ORCID](https://o
 
 ### Selected / 自研精选
 
-<p align="center">
-  <a href="https://github.com/AlexanderJ-Carter/AgentSociety2-Agent-Skills">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=AlexanderJ-Carter&repo=AgentSociety2-Agent-Skills&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=FFFFFF&icon_color=58A6FF" alt="AgentSociety2-Agent-Skills" />
-  </a>
-  <a href="https://github.com/AlexanderJ-Carter/AlexanderJ-Carter.github.io">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=AlexanderJ-Carter&repo=AlexanderJ-Carter.github.io&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=FFFFFF&icon_color=58A6FF" alt="AlexanderJ-Carter.github.io" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/AlexanderJ-Carter/MIPS-Pipeline-Verilog">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=AlexanderJ-Carter&repo=MIPS-Pipeline-Verilog&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=FFFFFF&icon_color=58A6FF" alt="MIPS-Pipeline-Verilog" />
-  </a>
-  <a href="https://github.com/AlexanderJ-Carter/netq">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=AlexanderJ-Carter&repo=netq&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=FFFFFF&icon_color=58A6FF" alt="netq" />
-  </a>
-</p>
-
-More / 更多：
-
-- [MyCook](https://github.com/AlexanderJ-Carter/MyCook) · [cook.alexander.xin](https://cook.alexander.xin)
-- [Git-Workflow-Lab](https://github.com/AlexanderJ-Carter/Git-Workflow-Lab) · [lab.alexander.xin](https://lab.alexander.xin)
-- [linux-command](https://github.com/AlexanderJ-Carter/linux-command) · [linux-command.alexander.xin](https://linux-command.alexander.xin)
+| Project | Stack | Notes |
+| --- | --- | --- |
+| [AgentSociety2-Agent-Skills](https://github.com/AlexanderJ-Carter/AgentSociety2-Agent-Skills) | Python | Theory-grounded skills for socially grounded agents |
+| [AlexanderJ-Carter.github.io](https://github.com/AlexanderJ-Carter/AlexanderJ-Carter.github.io) | Astro | Personal site · [alexander.xin](https://alexander.xin) |
+| [MIPS-Pipeline-Verilog](https://github.com/AlexanderJ-Carter/MIPS-Pipeline-Verilog) | Verilog | Five-stage MIPS pipeline CPU |
+| [netq](https://github.com/AlexanderJ-Carter/netq) | JavaScript | Menu-driven network troubleshooting CLI |
+| [MyCook](https://github.com/AlexanderJ-Carter/MyCook) | VitePress | Recipe site · [cook.alexander.xin](https://cook.alexander.xin) |
+| [Git-Workflow-Lab](https://github.com/AlexanderJ-Carter/Git-Workflow-Lab) | HTML | Hands-on Git lab · [lab.alexander.xin](https://lab.alexander.xin) |
+| [linux-command](https://github.com/AlexanderJ-Carter/linux-command) | Markdown | Command handbook · [linux-command.alexander.xin](https://linux-command.alexander.xin) |
 
 <a id="now"></a>
 ## Now & Skills / 此刻与技能
