@@ -19,4 +19,4 @@ jobs:
     timeout-minutes: 5
     steps:
       - name: Auto label PR by file paths
-        uses: actions/labeler@v5
+        uses: actions/labeler@v7
