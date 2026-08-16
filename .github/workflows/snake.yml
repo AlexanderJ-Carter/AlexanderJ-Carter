@@ -41,7 +41,7 @@ jobs:
             dist/github-contribution-grid-snake-ocean.svg?color-snake=#06b6d4&color-dots=#0e4429,#006d32,#26a641,#39d353
 
       - name: Deploy to output branch
-        uses: JamesIves/github-pages-deploy-action@v4.8.0
+        uses: JamesIves/github-pages-deploy-action@v4.9.0
         with:
           branch: output
           folder: dist
