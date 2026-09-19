@@ -8,7 +8,6 @@ on:
       - README.md
       - SECURITY.md
       - GOVERNANCE.md
-      - docs/**
       - .github/**/*.md
       - .lycheeignore
   pull_request:
@@ -18,7 +17,6 @@ on:
       - README.md
       - SECURITY.md
       - GOVERNANCE.md
-      - docs/**
       - .github/**/*.md
       - .lycheeignore
   schedule:
@@ -53,7 +51,7 @@ jobs:
             --retry-wait-time 5
             --timeout 20
             --exclude-file .lycheeignore
-            README.md SECURITY.md GOVERNANCE.md docs/**/*.md .github/**/*.md
+            README.md SECURITY.md GOVERNANCE.md .github/**/*.md
           fail: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

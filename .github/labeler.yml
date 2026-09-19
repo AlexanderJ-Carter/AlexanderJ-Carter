@@ -2,7 +2,6 @@ readme:
   - changed-files:
       - any-glob-to-any-file:
           - README.md
-          - assets/**
 
 ci:
   - changed-files:
@@ -13,7 +12,6 @@ visual:
   - changed-files:
       - any-glob-to-any-file:
           - README.md
-          - assets/**
 
 governance:
   - changed-files:
@@ -31,10 +29,3 @@ maintenance:
           - .lycheeignore
           - .gitignore
           - SECURITY.md
-          - docs/**
-
-research:
-  - changed-files:
-      - any-glob-to-any-file:
-          - README.md
-          - docs/superpowers/specs/**
