@@ -1,127 +1,90 @@
 <p align="center">
-  <img width="1000" alt="header"
-    src="https://capsule-render.vercel.app/api?type=venom&height=240&text=AlexanderJ-Carter&fontSize=54&fontAlignY=40&desc=%E6%8A%8A%E6%97%A5%E5%AD%90%E8%BF%87%E6%88%90%E8%87%AA%E5%B7%B1%E5%96%9C%E6%AC%A2%E7%9A%84%E6%A0%B7%E5%AD%90%20%E2%97%87%20Create%20your%20own%20sunshine&descAlignY=66&color=0:f97316,30:fb7185,60:22c55e,100:06b6d4" />
+  <img
+    width="100%"
+    alt="AlexanderJ-Carter"
+    src="https://capsule-render.vercel.app/api?type=soft&height=180&text=AlexanderJ-Carter&fontSize=42&fontAlignY=40&desc=%E6%8A%8A%E6%97%A5%E5%AD%90%E8%BF%87%E6%88%90%E8%87%AA%E5%B7%B1%E5%96%9C%E6%AC%A2%E7%9A%84%E6%A0%B7%E5%AD%90&descSize=16&descAlignY=62&animation=fadeIn&color=0:1e3a8a,50:0ea5e9,100:14b8a6&fontColor=ffffff"
+  />
 </p>
 
 <p align="center">
-  <a href="https://alexander.xin"><img alt="Website" src="https://img.shields.io/badge/website-alexander.xin-111827?style=for-the-badge&logo=safari&logoColor=white"></a>
-  <a href="https://orcid.org/0009-0007-0343-4129"><img alt="ORCID" src="https://img.shields.io/badge/orcid-0009--0007--0343--4129-16a34a?style=for-the-badge&logo=orcid&logoColor=white"></a>
-  <a href="https://github.com/AlexanderJ-Carter#publications"><img alt="Publications" src="https://img.shields.io/badge/publications-list-0ea5e9?style=for-the-badge&logo=googlescholar&logoColor=white"></a>
-  <a href="https://github.com/AlexanderJ-Carter/AlexanderJ-Carter/actions/workflows/profile-ci.yml"><img alt="Profile CI" src="https://img.shields.io/github/actions/workflow/status/AlexanderJ-Carter/AlexanderJ-Carter/profile-ci.yml?branch=main&style=for-the-badge&label=profile%20ci"></a>
+  <a href="https://alexander.xin"><img alt="个人网站" src="https://img.shields.io/badge/个人网站-alexander.xin-0f172a?style=for-the-badge&logo=safari&logoColor=white"></a>
+  <a href="https://scholar.google.com/citations?user=DJ43CTcAAAAJ"><img alt="Google Scholar" src="https://img.shields.io/badge/Google%20Scholar-DJ43CTcAAAAJ-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white"></a>
+  <a href="https://orcid.org/0009-0007-0343-4129"><img alt="ORCID" src="https://img.shields.io/badge/ORCID-0009--0007--0343--4129-A6CE39?style=for-the-badge&logo=orcid&logoColor=white"></a>
+  <a href="https://github.com/AlexanderJ-Carter"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-AlexanderJ--Carter-181717?style=for-the-badge&logo=github&logoColor=white"></a>
 </p>
 
 <p align="center">
-  <sub>🌤️ 日子不必很耀眼，但要很喜欢。 / Warm, not perfect.</sub><br />
-  <em>学生开发者 · LLM Agent 与可执行社会科学 / Student developer · LLM agents &amp; executable social science</em>
+  <img
+    alt="研究方向"
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1200&color=0EA5E9&center=true&vCenter=true&width=580&height=36&lines=LLM+Agent+%C2%B7+%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93+%C2%B7+%E8%AE%A1%E7%AE%97%E7%A4%BE%E4%BC%9A%E7%A7%91%E5%AD%A6"
+  />
+</p>
+
+<p align="center">
+  <img alt="Profile views" src="https://komarev.com/ghpvc/?username=AlexanderJ-Carter&label=%E8%AE%BF%E9%97%AE&color=0ea5e9&style=flat-square" />
 </p>
 
 ---
 
-## Quick nav / 快速导航
+## 关于
 
-[About](#about) · [Research](#research) · [Publications](#publications) · [Projects](#projects) · [Now](#now) · [Snake](#snake) · [Contact](#contact)
+**黄皓宇** · 清华大学电子工程系 · 电子信息科学与技术
 
-<a id="about"></a>
-## About / 关于
+关注大语言模型智能体、多智能体系统与计算社会科学。
 
-- 📍 北京 / Beijing
-- 🫖 清爽、稳定、长期主义 / neat, steady, long-term
-- ✨ 好奇心、实践、持续记录 / curiosity, practice, public notes
-- 🧩 软件 · 电子 · Linux · Verilog；把研究想法做成可运行系统 / software, electronics, Linux, Verilog — turning research ideas into runnable systems
+| 时间 |  |
+| --- | --- |
+| 2023.08 — 2027.07 | 清华大学电子工程系 · 电子信息科学与技术（本科在读） |
+| 2026.06 — 至今 | 北京三快在线科技有限公司（美团） |
 
-> 长期更新的个人角落：研究协作、开源工程与生活实验。  
-> A long-running corner for research collaboration, open-source engineering, and small experiments.
+## 论文
 
-<a id="research"></a>
-## Research / 研究
+**AgentSociety 2: An Integrated Research Environment for Executable Social Science**<br>
+`2026` · arXiv<br>
+[![arXiv](https://img.shields.io/badge/arXiv-2607.11895-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.11895)
+[![PDF](https://img.shields.io/badge/PDF-阅读-111827?style=flat-square&logo=adobeacrobatreader&logoColor=white)](https://arxiv.org/pdf/2607.11895)
 
-**LLM 驱动的社会智能体**、**可执行社会科学**，以及把假设变成可审计仿真与研究工作流的基础设施。  
-**LLM-driven social agents**, **executable social science**, and infrastructure that turns hypotheses into auditable simulations and research workflows.
+**Grounding LLM Agent Intent in Multi-Module Environments with Executable Action Programs**<br>
+`2026` · EMNLP<br>
+[![EMNLP](https://img.shields.io/badge/EMNLP-2026-0ea5e9?style=flat-square)](https://scholar.google.com/citations?user=DJ43CTcAAAAJ)
+[![Scholar](https://img.shields.io/badge/Google%20Scholar-查看-4285F4?style=flat-square&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=DJ43CTcAAAAJ)
 
-### Collaboration / 协作
+## 项目
 
-主线协作：[AgentSociety](https://github.com/tsinghua-fib-lab/AgentSociety) / AgentSociety 2（扩展与配置、CI / 安全、文档、Windows 兼容、社会人仿真技能）。  
-Primary collaboration: [AgentSociety](https://github.com/tsinghua-fib-lab/AgentSociety) / AgentSociety 2 (extension & config, CI / security, docs, Windows compatibility, socially grounded agent skills).
+| 仓库 | 标签 |
+| --- | --- |
+| [AgentSociety](https://github.com/tsinghua-fib-lab/AgentSociety) | [![stars](https://img.shields.io/github/stars/tsinghua-fib-lab/AgentSociety?style=flat-square&logo=github)](https://github.com/tsinghua-fib-lab/AgentSociety) ![research](https://img.shields.io/badge/研究-0ea5e9?style=flat-square) |
+| [MIPS-Pipeline-Verilog](https://github.com/AlexanderJ-Carter/MIPS-Pipeline-Verilog) | [![stars](https://img.shields.io/github/stars/AlexanderJ-Carter/MIPS-Pipeline-Verilog?style=flat-square&logo=github)](https://github.com/AlexanderJ-Carter/MIPS-Pipeline-Verilog) ![verilog](https://img.shields.io/badge/Verilog-1A2C34?style=flat-square) |
+| [MyCook](https://github.com/AlexanderJ-Carter/MyCook) | [![stars](https://img.shields.io/github/stars/AlexanderJ-Carter/MyCook?style=flat-square&logo=github)](https://github.com/AlexanderJ-Carter/MyCook) [![site](https://img.shields.io/badge/cook.alexander.xin-111827?style=flat-square)](https://cook.alexander.xin) |
+| [netq](https://github.com/AlexanderJ-Carter/netq) | [![stars](https://img.shields.io/github/stars/AlexanderJ-Carter/netq?style=flat-square&logo=github)](https://github.com/AlexanderJ-Carter/netq) ![js](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111) |
+| [linux-command](https://github.com/AlexanderJ-Carter/linux-command) | [![stars](https://img.shields.io/github/stars/AlexanderJ-Carter/linux-command?style=flat-square&logo=github)](https://github.com/AlexanderJ-Carter/linux-command) [![site](https://img.shields.io/badge/linux--command.alexander.xin-111827?style=flat-square)](https://linux-command.alexander.xin) |
+| [Git-Workflow-Lab](https://github.com/AlexanderJ-Carter/Git-Workflow-Lab) | [![stars](https://img.shields.io/github/stars/AlexanderJ-Carter/Git-Workflow-Lab?style=flat-square&logo=github)](https://github.com/AlexanderJ-Carter/Git-Workflow-Lab) [![site](https://img.shields.io/badge/lab.alexander.xin-111827?style=flat-square)](https://lab.alexander.xin) |
 
-- Lab: [Tsinghua FIB Lab — AgentSociety](https://github.com/tsinghua-fib-lab/AgentSociety)
-- Platform: [agentsociety2.fiblab.net](https://agentsociety2.fiblab.net/)
-- Related platform paper: [AgentSociety (arXiv:2502.08691)](https://arxiv.org/abs/2502.08691)
-
-<p align="center">
-  <a href="https://github.com/tsinghua-fib-lab/AgentSociety">
-    <img src="./assets/agentsociety2-featured.svg" alt="AgentSociety 2 featured card" width="100%" />
-  </a>
-</p>
-
-<a id="publications"></a>
-## Publications / 论文
-
-按时间倒序；新作在表顶追加一行。权威档案：[ORCID](https://orcid.org/0009-0007-0343-4129)。  
-Newest first — append new rows at the top. Canonical record: [ORCID](https://orcid.org/0009-0007-0343-4129).
-
-| Year | Title | Venue | Links |
-| --- | --- | --- | --- |
-| 2026 | [AgentSociety 2: An Integrated Research Environment for Executable Social Science](https://arxiv.org/abs/2607.11895) | arXiv preprint | [abs](https://arxiv.org/abs/2607.11895) · [pdf](https://arxiv.org/pdf/2607.11895) |
-
-<a id="projects"></a>
-## Projects / 项目
-
-### Featured / 精选
-
-| Project | Role | Notes |
-| --- | --- | --- |
-| [AgentSociety](https://github.com/tsinghua-fib-lab/AgentSociety) | Contributor & co-author | LLM-native IRE for executable social science |
-| [AgentSociety2-Agent-Skills](https://github.com/AlexanderJ-Carter/AgentSociety2-Agent-Skills) | Author | Theory-grounded skills for socially grounded agents |
-
-### Selected / 自研精选
-
-| Project | Stack | Notes |
-| --- | --- | --- |
-| [AgentSociety2-Agent-Skills](https://github.com/AlexanderJ-Carter/AgentSociety2-Agent-Skills) | Python | Theory-grounded skills for socially grounded agents |
-| [AlexanderJ-Carter.github.io](https://github.com/AlexanderJ-Carter/AlexanderJ-Carter.github.io) | Astro | Personal site · [alexander.xin](https://alexander.xin) |
-| [MIPS-Pipeline-Verilog](https://github.com/AlexanderJ-Carter/MIPS-Pipeline-Verilog) | Verilog | Five-stage MIPS pipeline CPU |
-| [netq](https://github.com/AlexanderJ-Carter/netq) | JavaScript | Menu-driven network troubleshooting CLI |
-| [MyCook](https://github.com/AlexanderJ-Carter/MyCook) | VitePress | Recipe site · [cook.alexander.xin](https://cook.alexander.xin) |
-| [Git-Workflow-Lab](https://github.com/AlexanderJ-Carter/Git-Workflow-Lab) | HTML | Hands-on Git lab · [lab.alexander.xin](https://lab.alexander.xin) |
-| [linux-command](https://github.com/AlexanderJ-Carter/linux-command) | Markdown | Command handbook · [linux-command.alexander.xin](https://linux-command.alexander.xin) |
-
-<a id="now"></a>
-## Now & Skills / 此刻与技能
-
-### Now
-
-- AgentSociety 2 工程与社会人仿真技能 / AgentSociety 2 engineering and social-agent skills
-- 软件、电子、Linux、Verilog 笔记 / Notes on software, electronics, Linux, and Verilog
-- 慢一点，但一直向前 / Learning in public, slowly but consistently
+---
 
 <p align="center">
-  <img src="./assets/ambient-lab.svg" alt="ambient lab scene" width="100%" />
+  <img src="https://skillicons.dev/icons?i=python,c,cpp,verilog,js,bash,linux,git,github,vscode,latex&perline=11" alt="技能图标" />
 </p>
 
-### Skills
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,js,ts,html,css,c,cpp,go,verilog,bash,linux,git,github,vscode,vim,md,latex&perline=8" alt="skills" />
-</p>
-
-<a id="snake"></a>
-## Snake / 贡献轨迹
+## 贡献轨迹
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AlexanderJ-Carter/AlexanderJ-Carter/output/github-contribution-grid-snake-dark.svg" />
-    <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/AlexanderJ-Carter/AlexanderJ-Carter/output/github-contribution-grid-snake.svg" />
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/AlexanderJ-Carter/AlexanderJ-Carter/output/github-contribution-grid-snake-dark.svg"
+    />
+    <img
+      alt="GitHub 贡献轨迹"
+      src="https://raw.githubusercontent.com/AlexanderJ-Carter/AlexanderJ-Carter/output/github-contribution-grid-snake.svg"
+    />
   </picture>
 </p>
 
----
-
-<a id="contact"></a>
-## Contact / 联系
-
-- Website: [alexander.xin](https://alexander.xin)
-- ORCID: [0009-0007-0343-4129](https://orcid.org/0009-0007-0343-4129)
-- Publications: [list above](#publications)
-- GitHub: [AlexanderJ-Carter](https://github.com/AlexanderJ-Carter)
-
-欢迎交流研究、项目或有趣想法。 / Feel free to reach out about research, projects, or ideas.
+<p align="center">
+  <img
+    width="100%"
+    alt="footer"
+    src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&color=0:1e3a8a,50:0ea5e9,100:14b8a6"
+  />
+</p>

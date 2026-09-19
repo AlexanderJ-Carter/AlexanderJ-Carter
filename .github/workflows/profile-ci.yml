@@ -72,19 +72,17 @@ jobs:
         run: |
           set -euo pipefail
           mapfile -t refs < <(grep -oE '\./assets/[A-Za-z0-9._/-]+\.svg' README.md | sort -u)
-          if [ "${#refs[@]}" -eq 0 ]; then
-            echo "README.md references no local ./assets/*.svg files" >&2
-            exit 1
-          fi
           for ref in "${refs[@]}"; do
             if [ ! -f "${ref#./}" ]; then
               echo "Missing asset referenced by README: $ref" >&2
               exit 1
             fi
           done
-          while IFS= read -r -d '' asset; do
-            if ! grep -qF "./${asset}" README.md; then
-              echo "Orphan asset not referenced by README: ${asset}" >&2
-              exit 1
-            fi
-          done < <(find assets -type f -name '*.svg' -print0)
+          if [ -d assets ]; then
+            while IFS= read -r -d '' asset; do
+              if ! grep -qF "./${asset}" README.md; then
+                echo "Orphan asset not referenced by README: ${asset}" >&2
+                exit 1
+              fi
+            done < <(find assets -type f -name '*.svg' -print0)
+          fi
