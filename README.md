@@ -21,7 +21,7 @@
 </p>
 
 <p align="center">
-  <img alt="Profile views" src="https://komarev.com/ghpvc/?username=AlexanderJ-Carter&label=%E8%AE%BF%E9%97%AE&color=0ea5e9&style=flat-square" />
+  <img alt="主页访问量" src="https://komarev.com/ghpvc/?username=AlexanderJ-Carter&label=%E4%B8%BB%E9%A1%B5%E8%AE%BF%E9%97%AE%E9%87%8F&color=0ea5e9&style=flat-square" />
 </p>
 
 ---
@@ -34,7 +34,7 @@
 
 | 时间 |  |
 | --- | --- |
-| 2023.08 — 2027.07 | 清华大学电子工程系 · 电子信息科学与技术（本科在读） |
+| 2023.08 — 至今 | 清华大学电子工程系 · 电子信息科学与技术（本科在读） |
 | 2026.06 — 至今 | 北京三快在线科技有限公司（美团） |
 
 ## 论文
