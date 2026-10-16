@@ -70,9 +70,7 @@
 
 ## 技术栈
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,c,cpp,verilog,js,bash,linux,git,github,vscode,latex&perline=11" alt="技术栈" />
-</p>
+<p align="center">Python · C/C++ · Verilog · JavaScript · Bash · Linux · Git · LaTeX</p>
 
 ## 贡献轨迹
 
