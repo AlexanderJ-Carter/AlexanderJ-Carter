@@ -1,6 +1,5 @@
 # Dynamic badge and widget services — may return non-200 codes during generation
 # or enforce rate limits; their availability is monitored separately.
-https://capsule-render.vercel.app/*
 https://skillicons.dev/*
 https://komarev.com/*
 https://img.shields.io/badge/个人网站-*

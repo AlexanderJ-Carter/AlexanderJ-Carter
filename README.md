@@ -1,9 +1,9 @@
+<h1 align="center">黄皓宇 <sub>Haoyu Huang</sub></h1>
+
+<p align="center"><i>把日子过成自己喜欢的样子</i></p>
+
 <p align="center">
-  <img
-    width="100%"
-    alt="AlexanderJ-Carter"
-    src="https://capsule-render.vercel.app/api?type=soft&height=180&text=AlexanderJ-Carter&fontSize=42&fontAlignY=40&desc=%E6%8A%8A%E6%97%A5%E5%AD%90%E8%BF%87%E6%88%90%E8%87%AA%E5%B7%B1%E5%96%9C%E6%AC%A2%E7%9A%84%E6%A0%B7%E5%AD%90&descSize=16&descAlignY=62&animation=fadeIn&color=0:1e3a8a,50:0ea5e9,100:14b8a6&fontColor=ffffff"
-  />
+  清华大学电子工程系 · LLM 智能体 · 多智能体系统 · 计算社会科学
 </p>
 
 <p align="center">
@@ -15,28 +15,58 @@
 
 ---
 
-## 关于
+## 经历
 
-**黄皓宇 · Haoyu Huang**，关注大语言模型智能体、多智能体系统与计算社会科学。
-
-- 🎓 2023.08 — 至今 · 清华大学电子工程系，电子信息科学与技术（本科在读）
-- 💼 2026.06 — 至今 · 北京三快在线科技有限公司（美团）
+- 🎓 **2023.08 — 至今** · 清华大学电子工程系 · 电子信息科学与技术（本科在读）
+- 💼 **2026.06 — 至今** · 北京三快在线科技有限公司（美团）
 
 ## 论文
 
-- **AgentSociety 2: An Integrated Research Environment for Executable Social Science**
-  `arXiv · 2026` — [arXiv](https://arxiv.org/abs/2607.11895) · [PDF](https://arxiv.org/pdf/2607.11895) · [代码](https://github.com/tsinghua-fib-lab/AgentSociety)
-- **Grounding LLM Agent Intent in Multi-Module Environments with Executable Action Programs**
-  `EMNLP · 2026` — [EMNLP 2026](https://2026.emnlp.org) · [Google Scholar](https://scholar.google.com/citations?user=DJ43CTcAAAAJ)
+- **AgentSociety 2: An Integrated Research Environment for Executable Social Science**<br>
+  `arXiv · 2026` · [arXiv](https://arxiv.org/abs/2607.11895) · [PDF](https://arxiv.org/pdf/2607.11895) · [代码](https://github.com/tsinghua-fib-lab/AgentSociety)
+- **Grounding LLM Agent Intent in Multi-Module Environments with Executable Action Programs**<br>
+  `EMNLP · 2026` · [EMNLP 2026](https://2026.emnlp.org) · [Google Scholar](https://scholar.google.com/citations?user=DJ43CTcAAAAJ)
 
 ## 项目
 
-- **[AgentSociety](https://github.com/tsinghua-fib-lab/AgentSociety)** ![stars](https://img.shields.io/github/stars/tsinghua-fib-lab/AgentSociety?style=flat-square&color=0ea5e9) — 清华 FIB Lab · LLM 原生智能体社会模拟研究平台
-- **[MIPS-Pipeline-Verilog](https://github.com/AlexanderJ-Carter/MIPS-Pipeline-Verilog)** ![stars](https://img.shields.io/github/stars/AlexanderJ-Carter/MIPS-Pipeline-Verilog?style=flat-square&color=0ea5e9) — Verilog 五级流水线 CPU，支持数据转发与冒险检测，可综合到 FPGA
-- **[MyCook](https://github.com/AlexanderJ-Carter/MyCook)** ![stars](https://img.shields.io/github/stars/AlexanderJ-Carter/MyCook?style=flat-square&color=0ea5e9) — 打开就能做饭 🍳 709 道家常菜谱 · PWA + MCP Server · [cook.alexander.xin](https://cook.alexander.xin)
-- **[netq](https://github.com/AlexanderJ-Carter/netq)** ![stars](https://img.shields.io/github/stars/AlexanderJ-Carter/netq?style=flat-square&color=0ea5e9) — 选单式交互的轻量网络排查 CLI，结果一键可读
-- **[linux-command](https://github.com/AlexanderJ-Carter/linux-command)** ![stars](https://img.shields.io/github/stars/AlexanderJ-Carter/linux-command?style=flat-square&color=0ea5e9) — 600+ Linux 命令速查手册 · [linux-command.alexander.xin](https://linux-command.alexander.xin)
-- **[Git-Workflow-Lab](https://github.com/AlexanderJ-Carter/Git-Workflow-Lab)** ![stars](https://img.shields.io/github/stars/AlexanderJ-Carter/Git-Workflow-Lab?style=flat-square&color=0ea5e9) — 「边看边做」的 Git 教学仓库 · [lab.alexander.xin](https://lab.alexander.xin)
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <b><a href="https://github.com/tsinghua-fib-lab/AgentSociety">AgentSociety</a></b>
+      <img alt="stars" src="https://img.shields.io/github/stars/tsinghua-fib-lab/AgentSociety?style=flat-square&color=0f172a"><br>
+      <sub>清华 FIB Lab · LLM 智能体社会模拟平台</sub>
+    </td>
+    <td align="center" width="50%">
+      <b><a href="https://github.com/AlexanderJ-Carter/MIPS-Pipeline-Verilog">MIPS-Pipeline-Verilog</a></b>
+      <img alt="stars" src="https://img.shields.io/github/stars/AlexanderJ-Carter/MIPS-Pipeline-Verilog?style=flat-square&color=0f172a"><br>
+      <sub>Verilog 五级流水线 CPU · 数据转发 · FPGA 综合</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <b><a href="https://github.com/AlexanderJ-Carter/MyCook">MyCook</a></b>
+      <img alt="stars" src="https://img.shields.io/github/stars/AlexanderJ-Carter/MyCook?style=flat-square&color=0f172a"><br>
+      <sub>打开就能做饭 🍳 709 道菜谱 · PWA + MCP · <a href="https://cook.alexander.xin">cook.alexander.xin</a></sub>
+    </td>
+    <td align="center" width="50%">
+      <b><a href="https://github.com/AlexanderJ-Carter/netq">netq</a></b>
+      <img alt="stars" src="https://img.shields.io/github/stars/AlexanderJ-Carter/netq?style=flat-square&color=0f172a"><br>
+      <sub>选单式交互网络排查 CLI · 结果一键可读</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <b><a href="https://github.com/AlexanderJ-Carter/linux-command">linux-command</a></b>
+      <img alt="stars" src="https://img.shields.io/github/stars/AlexanderJ-Carter/linux-command?style=flat-square&color=0f172a"><br>
+      <sub>600+ Linux 命令速查手册 · <a href="https://linux-command.alexander.xin">linux-command.alexander.xin</a></sub>
+    </td>
+    <td align="center" width="50%">
+      <b><a href="https://github.com/AlexanderJ-Carter/Git-Workflow-Lab">Git-Workflow-Lab</a></b>
+      <img alt="stars" src="https://img.shields.io/github/stars/AlexanderJ-Carter/Git-Workflow-Lab?style=flat-square&color=0f172a"><br>
+      <sub>「边看边做」的 Git 教学实验室 · <a href="https://lab.alexander.xin">lab.alexander.xin</a></sub>
+    </td>
+  </tr>
+</table>
 
 ## 技术栈
 
@@ -61,12 +91,4 @@
 
 <p align="center">
   <img alt="主页访问量" src="https://komarev.com/ghpvc/?username=AlexanderJ-Carter&label=%E4%B8%BB%E9%A1%B5%E8%AE%BF%E9%97%AE%E9%87%8F&color=0f172a&style=flat-square" />
-</p>
-
-<p align="center">
-  <img
-    width="100%"
-    alt="footer"
-    src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&color=0:1e3a8a,50:0ea5e9,100:14b8a6"
-  />
 </p>
