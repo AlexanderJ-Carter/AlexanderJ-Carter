@@ -37,28 +37,28 @@
       <sub>清华 FIB Lab · LLM 智能体社会模拟平台</sub>
     </td>
     <td align="center" width="50%">
-      <b><a href="https://github.com/AlexanderJ-Carter/MIPS-Pipeline-Verilog">MIPS-Pipeline-Verilog</a></b>
-      <img alt="stars" src="https://img.shields.io/github/stars/AlexanderJ-Carter/MIPS-Pipeline-Verilog?style=flat-square&color=0f172a"><br>
-      <sub>Verilog 五级流水线 CPU · 数据转发 · FPGA 综合</sub>
+      <b><a href="https://github.com/AlexanderJ-Carter/ComputeDeck">ComputeDeck</a></b>
+      <img alt="stars" src="https://img.shields.io/github/stars/AlexanderJ-Carter/ComputeDeck?style=flat-square&color=0f172a"><br>
+      <sub>多节点 GPU 控制面 · Web / CLI / MCP · <a href="https://compute.alexander.xin">compute.alexander.xin</a></sub>
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
       <b><a href="https://github.com/AlexanderJ-Carter/MyCook">MyCook</a></b>
       <img alt="stars" src="https://img.shields.io/github/stars/AlexanderJ-Carter/MyCook?style=flat-square&color=0f172a"><br>
-      <sub>打开就能做饭 🍳 709 道菜谱 · PWA + MCP · <a href="https://cook.alexander.xin">cook.alexander.xin</a></sub>
+      <sub>打开就能做饭 · 709 道菜谱 · PWA + MCP · <a href="https://cook.alexander.xin">cook.alexander.xin</a></sub>
     </td>
     <td align="center" width="50%">
-      <b><a href="https://github.com/AlexanderJ-Carter/netq">netq</a></b>
-      <img alt="stars" src="https://img.shields.io/github/stars/AlexanderJ-Carter/netq?style=flat-square&color=0f172a"><br>
-      <sub>选单式交互网络排查 CLI · 结果一键可读</sub>
+      <b><a href="https://github.com/AlexanderJ-Carter/china-scenic-atlas">china-scenic-atlas</a></b>
+      <img alt="stars" src="https://img.shields.io/github/stars/AlexanderJ-Carter/china-scenic-atlas?style=flat-square&color=0f172a"><br>
+      <sub>中国 A 级景区交互地图 · <a href="https://scenic.alexander.xin">scenic.alexander.xin</a></sub>
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
-      <b><a href="https://github.com/AlexanderJ-Carter/linux-command">linux-command</a></b>
-      <img alt="stars" src="https://img.shields.io/github/stars/AlexanderJ-Carter/linux-command?style=flat-square&color=0f172a"><br>
-      <sub>600+ Linux 命令速查手册 · <a href="https://linux-command.alexander.xin">linux-command.alexander.xin</a></sub>
+      <b><a href="https://github.com/AlexanderJ-Carter/netq">netq</a></b>
+      <img alt="stars" src="https://img.shields.io/github/stars/AlexanderJ-Carter/netq?style=flat-square&color=0f172a"><br>
+      <sub>选单式交互网络排查 CLI · <a href="https://netq.alexander.xin">netq.alexander.xin</a></sub>
     </td>
     <td align="center" width="50%">
       <b><a href="https://github.com/AlexanderJ-Carter/Git-Workflow-Lab">Git-Workflow-Lab</a></b>
@@ -70,7 +70,7 @@
 
 ## 技术栈
 
-<p align="center">Python · C/C++ · Verilog · JavaScript · Bash · Linux · Git · LaTeX</p>
+<p align="center">Python · C/C++ · Verilog · JavaScript · TypeScript · Bash · Linux · Git · LaTeX</p>
 
 ## 贡献轨迹
 
